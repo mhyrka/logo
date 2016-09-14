@@ -19,8 +19,8 @@ var square5 =
 describe('Diagonal Sum', function() {
 
   it('should check if diagonal sums are accurate', function() {
-    assert(diagnalSum(square4) === 4);
-    assert(diagnalSum(square5) === 19);
+    assert.equal(diagonalSum(square4), 4);
+    assert.equal(diagonalSum(square5), 19);
   });
 
 });
