@@ -22,7 +22,8 @@ function letterCount(str) {
   for(var i = 0; i < letterRay.length ; i++) {
       outStr += letterRay[i] + ':' + countRay[i] + ' ';
   }
-  console.log(outStr);
+  return outStr;
 }
 
-letterCount("aaaaaaaa0987bbbbb\][p;NNnnnN");
+console.log(letterCount("hello world"));
+console.log(letterCount("aaaaaaaa0987bbbbb][p;NNnnnN"));
