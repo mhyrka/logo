@@ -12,3 +12,6 @@ console.log(rampNumber(23456));
 console.log(rampNumber(111222223));
 console.log(rampNumber(111111222223456787));
 console.log(rampNumber(1230456));
+console.log(rampNumber(1111111));
+console.log(rampNumber(0));
+console.log(rampNumber(10));
