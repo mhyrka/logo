@@ -1,12 +1,14 @@
 function join (left, right, foreignKey, primaryKey, newKey) {
-  const rightById = right.reduce((rightById, rightEntity) => {
-    rightById[rightEntity.id] = rightEntity;
-    return rightById;
+  const rightByPrimaryKey = right.reduce((rightByPrimaryKey, rightEntity) => {
+    const entityPrimaryKey = rightEntity[primaryKey];
+    rightByPrimaryKey[entityPrimaryKey] = rightEntity;
+    return rightByPrimaryKey;
   }, {}); // create an object where the keys are the id and the values are the entities from the right array
-  
+
   return left.map(entity => {
     entity = Object.assign({}, entity); // copy entity so we don't modify the original
-    entity[newKey] = rightById[primaryKey]; // set the state property
+    const rightPrimaryKey = entity[foreignKey];
+    entity[newKey] = rightByPrimaryKey[rightPrimaryKey]; // set the state property
     delete entity[foreignKey]; // remove the state_id property
     return entity;
   });
