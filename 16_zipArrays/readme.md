@@ -1,6 +1,6 @@
 # Zip Arrays
 
-Implement a function which takes two parameters, both of which are arrays, and zips them together.
+Implement a function which takes two parameters, both of which are arrays, and zip them together.
 
 ie: The arguments are [1,2,3], and [4,5,6], and after zipping the two arrays, you return [1,4,2,5,3,6].
 
