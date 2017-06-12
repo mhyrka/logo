@@ -1,4 +1,4 @@
-MORSE_CODE_ALPHABET = {
+morse_code_alphabet = {
   ".-": "A",
   "-...": "B",
   "-.-.": "C",
@@ -38,4 +38,4 @@ MORSE_CODE_ALPHABET = {
   "/": " "
 };
 
-module.exports = MORSE_CODE_ALPHABET
+module.exports = morse_code_alphabet;

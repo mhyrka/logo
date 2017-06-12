@@ -7,6 +7,5 @@ describe('Decode Morse Code', () => {
     assert.equal(decodeMorse('.... . .-.. .-.. --- / .-- --- .-. .-.. -..'), 'HEY JUDE');
     assert.equal(decodeMorse('.... . .-.. .-.. --- / .-- --- .-. .-.. -..'), 'HELLO WORLD');
     assert.equal(decodeMorse('.. -. -.. .. ...- .. -.. ..- .- .-.. ... / .- -. -.. / .. -. - . .-. .- -.-. - .. --- -. ... / --- ...- . .-. / .--. .-. --- -.-. . ... ... . ... / .- -. -.. / - --- --- .-.. ...'),'INDIVIDUALS AND INTERACTIONS OVER PROCESSES AND TOOLS');
-
   })
-})
+});

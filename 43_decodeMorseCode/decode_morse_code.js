@@ -1,4 +1,4 @@
-let morseObj = require('MORSE_CODE_ALPHABET');
+let morseObj = require('morse_code_alphabet');
 
 function decodeMorse() {
 
