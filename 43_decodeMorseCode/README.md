@@ -45,4 +45,4 @@ Write your code inside `decode_morse_code.js`.
 
 Run `npm install --save mocha chai` to install dependencies. 
 
-Run `npm test` to test your function.
+Run `mocha` to test your function.
