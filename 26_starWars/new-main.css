@@ -1,0 +1,122 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+
+}
+
+section {
+  height: 90vh;
+  width: 50vw;
+
+}
+
+/* .left-main {
+  width: 50vw;
+}
+
+.right-main {
+  width: 50vw;
+} */
+
+.left {
+  display: flex;
+  /* justify-content: flex-end; */
+  /* flex-direction: column; */
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.left-triangle {
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 200px 200px 0;
+border-color: transparent #404040 transparent transparent;
+/* margin-bottom: 20vh;  */
+}
+
+.right-triangle {
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 200px 200px 0 0;
+border-color: #999999 transparent transparent transparent;
+}
+
+.left-circle {
+
+  height:180px;
+  width:90px;
+  border-radius: 90px 0 0 90px;
+  background:#404040;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.right-circle {
+  height:180px;
+  width:90px;
+  border-radius: 0 90px 90px 0;
+  background:#999999;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.inner-circle-left {
+  height:60px;
+  width:30px;
+  border-radius: 90px 0 0 90px;
+  margin-top: 12.5vh;
+  background: #1A1A1A;
+  /* padding-bottom: -10px; */
+}
+
+.inner-circle-right {
+  height:60px;
+  width:30px;
+  border-radius: 0 90px 90px 0;
+  background:#404040;
+  margin-top: 12.5vh;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  justify-content: center;
+  position: absolute;
+  right: 37.5vw;
+  left: 37.5vw;
+  top: 90vh;
+
+}
