@@ -1,0 +1,115 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: #f0ead6; */
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 35vh;
+  width: 65vw;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.m {
+  height: 35vh;
+  width: 40vw;
+  background-color: white;
+  border-left: 45px solid #335889;
+  border-top: 45px solid #335889;
+  border-bottom: 45px solid #335889;
+  /* border-right: 45px solid #335889; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-end; */
+  align-items: flex-end;
+}
+
+.inner-m {
+  width: 45px;
+  height: 200px;
+  background-color: #335889;
+  margin-left: 110px;
+}
+
+.p-left {
+  height: 41.5vh;
+  width: 17.5vw;
+  background-color: white;
+  border-left: 45px solid #335889;
+  border-top: 45px solid #335889;
+  border-bottom: 45px solid #335889;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.inner-p-left-top {
+  height: 155px;
+  width: 45px;
+  border-bottom: 45px solid white;
+  background-color: #335889;
+}
+
+.inner-p-left-bottom {
+  height: 46px;
+  width: 45px;
+  background-color: #335889;
+}
+
+.p-right {
+  height: 35vh;
+  width: 12.5vw;
+  background-color: white;
+  border-top: 45px solid #335889;
+  border-bottom: 45px solid #335889;
+}
+
+.h {
+  width: 30vw;
+  height: 35vh;
+  border-top: 45px solid #335889;
+  border-right: 45px solid #335889;
+  border-bottom: 45px solid #335889;
+  border-left: 45px solid #335889;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner-h-top {
+  width: 45px;
+  height: 80px;
+  background-color: #335889;
+}
+
+.inner-h-bottom {
+  width: 45px;
+  height: 80px;
+  background-color: #335889;
+}
+
+.inner-m-l {
+  width: 45px;
+  height: 200px;
+  background-color: #335889;
+  margin-left: 85px;
+}
+
+.inner-m-r {
+  width: 45px;
+  height: 200px;
+  background-color: #335889;
+  margin-left: 50px;
+}
+
+/* #335889
+ */

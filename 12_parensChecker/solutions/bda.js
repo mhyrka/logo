@@ -13,5 +13,5 @@ console.log(parensChecker("()(((())))")); //=> true
 
 console.log(parensChecker("())))(")); //=> false
 
-console.log(parensChecker(")(")); //=> false
+console.log(parensChecker("())()(")); //=> false
 console.log(parensChecker("()(")); //=> false
